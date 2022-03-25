@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+
+  <head>
+    <title> Premier diaporama</title>
+    <meta charset="UTF-8" />
+
+    <link href="style/style-diapo.css" type="text/css" rel="stylesheet" />
+
+		<!-- chargement du script -->
+	<script src="scripts/tabImages.js" async></script>
+	<script src="scripts/diapov1.js" async></script>
+
+
+  </head>
+  <body>
+	<div class="diaporama">
+		<img src="images/image.jpg" alt="un diaporama" id="diapo"/>
+		<div><button id="precedent">Precedent</button><button id="suivant">Suivant</button></div>
+		<div><button id="lecture">Lecture</button><button id="stop">Stop</button></div>
+		<input id="delai" type="text" value="1000" />seconde
+	</div>
+  </body>
+</html>
